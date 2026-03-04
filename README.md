@@ -54,6 +54,10 @@ SELECT passenger_name, flight_number
 FROM bookings
 JOIN passengers ON bookings.passenger_id = passengers.id;
 
+SELECT p.passenger_name, f.flight_number
+FROM bookings b
+JOIN passengers p ON b.passenger_id = p.passenger_id
+JOIN flights f ON b.flight_id = f.flight_id;
 
 
 
