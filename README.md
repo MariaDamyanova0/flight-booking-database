@@ -44,6 +44,9 @@ Contains the full database schema including tables, relationships, and constrain
 
 Contains example insert statements used to populate the database with sample data.
 
+<img width="865" height="592" alt="image" src="https://github.com/user-attachments/assets/c66d11a3-8f29-4901-8953-dd0e4d30b163" />
+
+
 Example query:
 
 ```sql
@@ -51,5 +54,6 @@ SELECT passenger_name, flight_number
 FROM bookings
 JOIN passengers ON bookings.passenger_id = passengers.id;
 
-<img width="1087" height="742" alt="DiagramSQL" src="https://github.com/user-attachments/assets/0b3f9baf-6d94-4020-b572-a7bae51bdfd8" />
+
+
 
